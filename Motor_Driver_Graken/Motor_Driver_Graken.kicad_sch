@@ -1861,6 +1861,48 @@
 		)
 	)
 	(sheet
+		(at 236.982 80.01)
+		(size 43.434 33.274)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b5ef32f-981a-4222-85db-3e94d9222d95")
+		(property "Sheetname" "IC Details"
+			(at 236.982 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IC_Details.kicad_sch"
+			(at 236.982 113.8686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Graken"
+				(path "/7c9d4969-3cbd-46ca-8216-6f71fd9792b9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 105.41 80.01)
 		(size 50.8 76.2)
 		(exclude_from_sim no)

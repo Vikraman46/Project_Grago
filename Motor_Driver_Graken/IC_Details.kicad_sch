@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20240819)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "90c4931b-ccc8-4fdf-bd97-ca924584b12f")
+	(paper "A4")
+	(title_block
+		(title "MOTOR_DRIVER_GRAGO")
+	)
+	(lib_symbols)
+)

@@ -646,6 +646,10 @@
     [
       "0ca1797d-4743-4c7d-8f5c-459cc205a59f",
       "Sensing_Unit"
+    ],
+    [
+      "9b5ef32f-981a-4222-85db-3e94d9222d95",
+      "IC Details"
     ]
   ],
   "text_variables": {}

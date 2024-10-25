@@ -1154,7 +1154,7 @@
 		)
 		(uuid c829924c-9928-4abd-a316-f282c12d91b0)
 	)
-	(text "Rg=Vgs/Ig\n\nIg=Qg/Tr\n\nTr=30ns\nQg=179nC\n\nIg=5.966A\n\nRg=15V/5.966\n\nRg=2.5R\n\nconsidering switching losses and deaccelaration timing we use 2.2RR \nwhich is also efficient\n\n\n"
+	(text "Rg=Vgs/Ig\n\nIg=Qg/Tr\n\nTr=30ns\nQg=179nC\n\nIg=5.966A\n\nRg=15V/5.966\n\nRg=2.5R\n\nconsidering switching losses and deaccelaration timing we use 2.2R \nwhich is also efficient\n\n\n"
 		(exclude_from_sim no)
 		(at 117.856 79.248 0)
 		(effects
