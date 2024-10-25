@@ -423,8 +423,8 @@
 		(uuid 041c2165-7a61-4e31-badc-05140a355e32)
 	)
 	(rectangle
-		(start 175.768 38.354)
-		(end 177.292 51.562)
+		(start 167.894 38.354)
+		(end 169.418 51.562)
 		(stroke
 			(width 0)
 			(type default)
@@ -652,16 +652,6 @@
 			(type default)
 		)
 		(uuid "297b4987-1b30-4c64-b33f-48c8d27739bd")
-	)
-	(wire
-		(pts
-			(xy 170.18 74.93) (xy 170.18 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a27f131-8bf8-48a7-94dd-ce0ea0957717")
 	)
 	(wire
 		(pts
@@ -905,7 +895,7 @@
 	)
 	(polyline
 		(pts
-			(xy 174.752 51.562) (xy 176.53 53.34)
+			(xy 166.878 51.562) (xy 168.656 53.34)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +955,7 @@
 	)
 	(polyline
 		(pts
-			(xy 174.752 51.562) (xy 178.308 51.562)
+			(xy 166.878 51.562) (xy 170.434 51.562)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +965,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.308 51.562) (xy 176.53 53.34)
+			(xy 170.434 51.562) (xy 168.656 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1142,6 +1132,16 @@
 			(type default)
 		)
 		(uuid "fb235948-3b21-4454-8698-1ca54b43bb40")
+	)
+	(wire
+		(pts
+			(xy 170.18 72.39) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9eae02-72fe-4150-8bd4-62d4d300b90d")
 	)
 	(polyline
 		(pts
@@ -1425,13 +1425,12 @@
 		)
 	)
 	(sheet
-		(at 147.32 53.34)
-		(size 35.56 21.59)
+		(at 148.59 53.594)
+		(size 35.56 18.796)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1440,8 +1439,8 @@
 			(color 203 220 255 1.0000)
 		)
 		(uuid "00c908c7-fd64-4401-9f72-825c3cba3c9f")
-		(property "Sheetname" "Breaking_Resistor Section"
-			(at 147.32 52.6284 0)
+		(property "Sheetname" "Braking_Resistor Section"
+			(at 148.59 52.8824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,8 +1448,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Breaking_Resistor Section.kicad_sch"
-			(at 147.32 75.0066 0)
+		(property "Sheetfile" "Braking_Resistor Section.kicad_sch"
+			(at 148.59 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,14 +1458,14 @@
 			)
 		)
 		(pin "BR" input
-			(at 170.18 74.93 270)
+			(at 170.18 72.39 270)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
-			(uuid "87fb83c8-61c4-402a-a6ed-c61ae931af41")
+			(uuid "1ab75368-9ee8-469c-8b27-952283aa5881")
 		)
 		(instances
 			(project "Motor_Driver_Graken"
