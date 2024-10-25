@@ -635,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 95.25) (xy 173.99 95.25)
+			(xy 156.21 92.71) (xy 173.99 92.71)
 		)
 		(stroke
 			(width 0)
@@ -645,7 +645,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 173.99 111.76)
+			(xy 156.21 109.22) (xy 173.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -755,7 +755,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 102.87) (xy 173.99 102.87)
+			(xy 156.21 100.33) (xy 173.99 100.33)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 107.95) (xy 173.99 107.95)
+			(xy 156.21 105.41) (xy 173.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -985,7 +985,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 173.99 97.79)
+			(xy 156.21 95.25) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 92.71) (xy 173.99 92.71)
+			(xy 156.21 90.17) (xy 173.99 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 105.41) (xy 173.99 105.41)
+			(xy 156.21 102.87) (xy 173.99 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2034,7 +2034,7 @@
 			(uuid "607d7573-0d12-4d74-844a-cd9c55c8d995")
 		)
 		(pin "PWM_V_LOW" input
-			(at 156.21 105.41 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2044,7 @@
 			(uuid "99f823ca-73d1-47f8-9ada-6bdf146c15a6")
 		)
 		(pin "PWM_U_LOW" input
-			(at 156.21 102.87 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2134,7 @@
 			(uuid "1f638c7b-2475-43ea-b062-e424ca4c801f")
 		)
 		(pin "PWM_V_HIGH" input
-			(at 156.21 95.25 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2144,7 @@
 			(uuid "36025b06-1900-4161-922c-27dce184a9f7")
 		)
 		(pin "PWM_U_HIGH" input
-			(at 156.21 92.71 0)
+			(at 156.21 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2164,7 @@
 			(uuid "2d4dace5-b21a-4688-bcbd-af07ca25afd6")
 		)
 		(pin "PWM_W_HIGH" input
-			(at 156.21 97.79 0)
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2224,7 @@
 			(uuid "5d9eb010-913b-46de-b799-7e0bbb7d8072")
 		)
 		(pin "PWM_W_LOW" input
-			(at 156.21 107.95 0)
+			(at 156.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2234,7 @@
 			(uuid "1f7d4103-65c9-49c6-bec1-24e9b65e5e4e")
 		)
 		(pin "DIS" input
-			(at 156.21 111.76 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2285,7 @@
 			)
 		)
 		(pin "PWM_V_HIGH" input
-			(at 173.99 95.25 180)
+			(at 173.99 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2295,7 @@
 			(uuid "a070f717-ca12-4f41-a0e7-3c5751031466")
 		)
 		(pin "PWM_V_LOW" input
-			(at 173.99 105.41 180)
+			(at 173.99 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2305,7 @@
 			(uuid "66dda86a-a728-49bb-991f-d8665f4c4ac5")
 		)
 		(pin "PWM_W_HIGH" input
-			(at 173.99 97.79 180)
+			(at 173.99 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2315,7 @@
 			(uuid "d5f97402-ccea-4972-8429-e5c3dbc7649e")
 		)
 		(pin "DIS" input
-			(at 173.99 111.76 180)
+			(at 173.99 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2325,7 @@
 			(uuid "813e20c7-241f-4a20-8712-d454bd5db6fa")
 		)
 		(pin "PWM_W_LOW" input
-			(at 173.99 107.95 180)
+			(at 173.99 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2335,7 @@
 			(uuid "3816faba-9dc4-49cc-90c7-d70018e2cba4")
 		)
 		(pin "PWM_U_HIGH" input
-			(at 173.99 92.71 180)
+			(at 173.99 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2345,7 @@
 			(uuid "3b44d1a2-545f-4a77-a201-08f759bdfaa6")
 		)
 		(pin "PWM_U_LOW" input
-			(at 173.99 102.87 180)
+			(at 173.99 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
