@@ -1985,17 +1985,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -2.54)
@@ -2006,6 +1995,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
