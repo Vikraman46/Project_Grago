@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241004)
+	(version 20240819)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "7c9d4969-3cbd-46ca-8216-6f71fd9792b9")
@@ -11,13 +11,9 @@
 	(lib_symbols
 		(symbol "power:GND1"
 			(power)
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -112,13 +108,9 @@
 		)
 		(symbol "power:GND2"
 			(power)
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -213,13 +205,9 @@
 		)
 		(symbol "power:GNDA"
 			(power)
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -314,13 +302,9 @@
 		)
 		(symbol "power:GNDD"
 			(power)
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -651,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 91.44) (xy 173.99 91.44)
+			(xy 156.21 92.71) (xy 173.99 92.71)
 		)
 		(stroke
 			(width 0)
@@ -661,7 +645,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 107.95) (xy 173.99 107.95)
+			(xy 156.21 109.22) (xy 173.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -761,7 +745,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 99.06) (xy 173.99 99.06)
+			(xy 156.21 100.33) (xy 173.99 100.33)
 		)
 		(stroke
 			(width 0)
@@ -861,7 +845,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 104.14) (xy 173.99 104.14)
+			(xy 156.21 105.41) (xy 173.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 93.98) (xy 173.99 93.98)
+			(xy 156.21 95.25) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1101,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 88.9) (xy 173.99 88.9)
+			(xy 156.21 90.17) (xy 173.99 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1121,7 +1105,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 101.6) (xy 173.99 101.6)
+			(xy 156.21 102.87) (xy 173.99 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +1440,7 @@
 		)
 		(uuid "00c908c7-fd64-4401-9f72-825c3cba3c9f")
 		(property "Sheetname" "Braking_Resistor Section"
-			(at 143.256 53.086 0)
+			(at 148.59 52.8824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2075,7 @@
 			(uuid "607d7573-0d12-4d74-844a-cd9c55c8d995")
 		)
 		(pin "PWM_V_LOW" input
-			(at 156.21 101.6 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2085,7 @@
 			(uuid "99f823ca-73d1-47f8-9ada-6bdf146c15a6")
 		)
 		(pin "PWM_U_LOW" input
-			(at 156.21 99.06 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2175,7 @@
 			(uuid "1f638c7b-2475-43ea-b062-e424ca4c801f")
 		)
 		(pin "PWM_V_HIGH" input
-			(at 156.21 91.44 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2185,7 @@
 			(uuid "36025b06-1900-4161-922c-27dce184a9f7")
 		)
 		(pin "PWM_U_HIGH" input
-			(at 156.21 88.9 0)
+			(at 156.21 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2205,7 @@
 			(uuid "2d4dace5-b21a-4688-bcbd-af07ca25afd6")
 		)
 		(pin "PWM_W_HIGH" input
-			(at 156.21 93.98 0)
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2265,7 @@
 			(uuid "5d9eb010-913b-46de-b799-7e0bbb7d8072")
 		)
 		(pin "PWM_W_LOW" input
-			(at 156.21 104.14 0)
+			(at 156.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2275,7 @@
 			(uuid "1f7d4103-65c9-49c6-bec1-24e9b65e5e4e")
 		)
 		(pin "DIS" input
-			(at 156.21 107.95 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2326,7 @@
 			)
 		)
 		(pin "PWM_V_HIGH" input
-			(at 173.99 91.44 180)
+			(at 173.99 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2336,7 @@
 			(uuid "a070f717-ca12-4f41-a0e7-3c5751031466")
 		)
 		(pin "PWM_V_LOW" input
-			(at 173.99 101.6 180)
+			(at 173.99 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2346,7 @@
 			(uuid "66dda86a-a728-49bb-991f-d8665f4c4ac5")
 		)
 		(pin "PWM_W_HIGH" input
-			(at 173.99 93.98 180)
+			(at 173.99 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2356,7 @@
 			(uuid "d5f97402-ccea-4972-8429-e5c3dbc7649e")
 		)
 		(pin "DIS" input
-			(at 173.99 107.95 180)
+			(at 173.99 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2366,7 @@
 			(uuid "813e20c7-241f-4a20-8712-d454bd5db6fa")
 		)
 		(pin "PWM_W_LOW" input
-			(at 173.99 104.14 180)
+			(at 173.99 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2376,7 @@
 			(uuid "3816faba-9dc4-49cc-90c7-d70018e2cba4")
 		)
 		(pin "PWM_U_HIGH" input
-			(at 173.99 88.9 180)
+			(at 173.99 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2386,7 @@
 			(uuid "3b44d1a2-545f-4a77-a201-08f759bdfaa6")
 		)
 		(pin "PWM_U_LOW" input
-			(at 173.99 99.06 180)
+			(at 173.99 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,13 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Dell\Documents\LTspice\GRaken _Snubber.asc
+Start Time: Sat Nov  9 15:39:26 2024
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Instance "m:u1:_driver:_out_stage:_up": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_driver:_out_stage:_dw": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.169 seconds.
+

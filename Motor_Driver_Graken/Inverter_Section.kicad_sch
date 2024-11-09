@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240819)
+	(version 20241004)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "2417b9d8-c301-4aa6-a077-de6f17c336eb")
@@ -9,7 +9,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -168,9 +170,13 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -304,9 +310,13 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -468,9 +478,13 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1380,7 +1394,8 @@
 				)
 				(pin passive line
 					(at -12.7 10.16 0)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "VCCI"
 						(effects
 							(font
@@ -1488,7 +1503,8 @@
 				)
 				(pin no_connect line
 					(at -10.16 -5.08 0)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -1506,7 +1522,8 @@
 				)
 				(pin no_connect line
 					(at 10.16 2.54 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -1524,7 +1541,8 @@
 				)
 				(pin no_connect line
 					(at 10.16 -2.54 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -1652,7 +1670,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1967,9 +1987,13 @@
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2088,9 +2112,13 @@
 		)
 		(symbol "power:GND1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2185,9 +2213,13 @@
 		)
 		(symbol "power:GND2"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2282,9 +2314,13 @@
 		)
 		(symbol "power:GNDD"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3023,18 +3059,6 @@
 		(uuid "e325c86b-7840-4258-9c14-004d004731e3")
 	)
 	(junction
-		(at 138.43 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5472aec-c7c8-43ba-b30a-b900e74a69a0")
-	)
-	(junction
-		(at 118.11 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6ce3312-c411-470c-ae43-0dfba8a1a715")
-	)
-	(junction
 		(at 260.35 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3527,16 +3551,6 @@
 			(type default)
 		)
 		(uuid "1b364f77-6a74-4e8e-aa3d-a183d30c221f")
-	)
-	(wire
-		(pts
-			(xy 118.11 35.56) (xy 118.11 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9e449e-3b1d-433f-8c59-15abfbfec207")
 	)
 	(wire
 		(pts
@@ -5107,16 +5121,6 @@
 			(type default)
 		)
 		(uuid "887cae8a-acf1-4cab-a8a1-86d7d68247d8")
-	)
-	(wire
-		(pts
-			(xy 118.11 39.37) (xy 138.43 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88dfe0c6-7ca7-4ea9-857b-7ffd1ebf22f2")
 	)
 	(wire
 		(pts
@@ -6857,16 +6861,6 @@
 			(type default)
 		)
 		(uuid "f839537e-a39f-4a4e-ac7d-4d7ec5ad6866")
-	)
-	(wire
-		(pts
-			(xy 118.11 39.37) (xy 118.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f865ecc1-ec38-4119-98bb-31fee5699620")
 	)
 	(wire
 		(pts
@@ -15210,72 +15204,6 @@
 			(project "Motor_Driver_Graken"
 				(path "/7c9d4969-3cbd-46ca-8216-6f71fd9792b9/d4a314ca-234a-4116-8831-95751aed0b3f"
 					(reference "C79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 118.11 40.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1133eb14-2a00-47ad-966a-b01dc6642dcb")
-		(property "Reference" "#PWR072"
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 120.904 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 118.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f719f0ec-e594-4589-9932-85426538ea16")
-		)
-		(instances
-			(project "BESC_OWN_VERSION"
-				(path "/7c9d4969-3cbd-46ca-8216-6f71fd9792b9/d4a314ca-234a-4116-8831-95751aed0b3f"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)

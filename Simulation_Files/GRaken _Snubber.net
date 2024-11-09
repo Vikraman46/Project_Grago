@@ -1,0 +1,18 @@
+* C:\Users\Dell\Documents\LTspice\GRaken _Snubber.asc
+XU1 3.3V in 0 0 0 15V N001 Vgs 1ED3121MC12H
+V1 3.3V 0 3.3
+V2 15V 0 15
+C1 3.3V 0 100n V=20
+R1 Vgs N001 2.2
+V3 120V 0 120
+V4 in 0 PULSE(0 5 .5u 30n 21n 2u 4u 2)
+C2 15V 0 4.7µ V=100
+M1 Vds Vgs 0 0 BSZ16DN25NS3
+R2 120V Vds 100 pwr=1000
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Dell\AppData\Local\LTspice\lib\cmp\standard.mos
+.tran 10u
+.lib C:\Users\Dell\Documents\LTspice\Infineon-1ED3121MC12H-PSpice-SimulationModels-v01_01-EN\Model\1ED3121MC12H.lib
+.backanno
+.end
